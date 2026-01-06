@@ -1,10 +1,7 @@
 import { useState } from "react";
 import "./index.css";
-import Button from "./components/button/Button";
 //@ts-ignore
 import "@fontsource/montserrat-alternates";
-import Checklist from "./components/checklist/Checklist";
-import Row from "./components/row/Row";
 import ContainerView from "./container";
 
 interface DummyData {
