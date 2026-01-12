@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./index.css";
 import ContainerView from "./container";
+import '@fontsource/montserrat/400.css'
 
 interface DummyData {
   id: number;
