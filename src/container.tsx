@@ -34,14 +34,14 @@ const ContainerView: FC<ContainerViewProps> = ({
           className="group w-full justify-between flex items-center cursor-pointer h-10.5 pl-5.5 pr-3.75"
           onClick={onSelectAll}
         >
-          <div className="text-sm">All Pages</div>
+          <div className="text-sm">All pages</div>
           <div className="px-1.5 pt-[6.5px] pb-[5.5px]">
             <Checklist checked={allChecked} />
           </div>
         </div>
 
         <div className="w-full px-3.75 py-2.5">
-          <div className="w-full h-px bg-[#CDCDCD]" />
+          <div className="w-full h-[0.7px] bg-[#CDCDCD]" />
         </div>
 
         <div className="flex-1 overflow-y-auto hide-scrollbar">
@@ -56,7 +56,7 @@ const ContainerView: FC<ContainerViewProps> = ({
         </div>
 
         <div className="w-full px-3.75 py-2.5">
-          <div className="w-full h-px bg-[#CDCDCD]" />
+          <div className="w-full h-[0.7px] bg-[#CDCDCD]" />
         </div>
 
         <div className="w-full px-3.75 py-2.5">

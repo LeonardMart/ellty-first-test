@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./index.css";
 //@ts-ignore
-import "@fontsource/montserrat-alternates";
+// import "@fontsource/montserrat-alternates";
 import ContainerView from "./container";
 
 interface DummyData {

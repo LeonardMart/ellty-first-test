@@ -16,14 +16,14 @@ const Checklist: FC<ChecklistProps> = (props) => {
   return (
       <div
         onClick={() => setChecked((prev) => !prev)}
-        className={`group cursor-pointer border rounded 
+        className={`group cursor-pointer border rounded-md 
           flex items-center justify-center w-5.75 h-5.75 
           transition-all duration-150 
           group-active:ring-[3px] group-active:ring-[#2469F6]/10
         ${
           checked
             ? "bg-[#2469F6] border-[#2469F6] group-hover:bg-[#5087F8]"
-            : "border-[#CDCDCD] group-hover:border-[#BDBDBD]"
+            : "border-[#CDCDCD]/70 group-hover:border-[#BDBDBD]"
         }
       `}
       >
@@ -33,7 +33,7 @@ const Checklist: FC<ChecklistProps> = (props) => {
           ${
             checked
               ? "text-white"
-              : "opacity-0 group-hover:opacity-100 group-hover:text-gray-400"
+              : "transition-none opacity-0 group-hover:opacity-100 group-hover:text-[#E3E3E3] group-active:text-[#878787]"
           }
         `}
         />
