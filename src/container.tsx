@@ -34,7 +34,7 @@ const ContainerView: FC<ContainerViewProps> = ({
           className="group w-full justify-between flex items-center cursor-pointer h-10.5 pl-5.5 pr-3.75"
           onClick={onSelectAll}
         >
-          <div className="text-sm">All pages</div>
+          <div className="text-sm">All Pages</div>
           <div className="px-1.5 pt-[6.5px] pb-[5.5px]">
             <Checklist checked={allChecked} />
           </div>
